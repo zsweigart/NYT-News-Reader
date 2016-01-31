@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_padding">16dp</dimen>
+    <dimen name="material_padding_half">8dp</dimen>
+    <dimen name="material_content_margin_left">72dp</dimen>
+    <dimen name="min_material_row_height">56dp</dimen>
+    <dimen name="material_icon_size">24dp</dimen>
+
+    <dimen name="headline">24sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="body">14sp</dimen>
+    <dimen name="caption">12sp</dimen>
+
+    <dimen name="image_max_height">200dp</dimen>
+
+</resources>

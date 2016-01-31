@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/news_card_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:background="@color/category_miscellaneous_blue"
+            android:paddingBottom="@dimen/material_padding_half"
+            android:paddingTop="@dimen/material_padding_half"
+            android:paddingLeft="@dimen/material_padding"
+            android:paddingRight="@dimen/material_padding"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Sports"/>
+
+        <ImageView
+            android:id="@+id/news_card_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/image_max_height"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            tools:src="@drawable/image_not_found"
+            android:layout_below="@id/news_card_category"/>
+
+        <TextView
+            android:id="@+id/news_card_headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:paddingTop="@dimen/material_padding"
+            android:paddingBottom="@dimen/material_padding_half"
+            android:paddingLeft="@dimen/material_padding"
+            android:paddingRight="@dimen/material_padding"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/news_card_image"
+            tools:text="Headline of the Article"/>
+
+        <TextView
+            android:id="@+id/news_card_byline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/body"
+            android:paddingBottom="@dimen/material_padding_half"
+            android:paddingLeft="@dimen/material_padding"
+            android:paddingRight="@dimen/material_padding"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/news_card_headline"
+            tools:text="Article Byline" />
+
+    </RelativeLayout>
+
+</merge>

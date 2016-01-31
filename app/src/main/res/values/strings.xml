@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYT News Reader</string>
+    
+    <string name="nyt_newswire_api_key">fee6d7ecfd9d73884e23a36f3a249868:12:74231009</string>
+
+    <string name="nyt_shared_preferences">nyt_shared_preferences</string>
+
+    <string name="filter_categories">Filter Categories</string>
+    <string name="select_category">Select Category</string>
+    <string name="read_more">Read More</string>
+</resources>
